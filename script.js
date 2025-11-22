@@ -15,7 +15,7 @@ class ChatBot {
         this.addWelcomeMessage();
         
         // Add API configuration
-        this.API_KEY = 'AIzaSyD5tYUv-WP9pNM5TEYYB43CG76D9jAdulQ';
+        this.API_KEY = ';
         this.API_URL = 'https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent';
     }
 
@@ -191,4 +191,5 @@ class ChatBot {
 // Initialize the chatbot when the page loads
 document.addEventListener('DOMContentLoaded', () => {
     new ChatBot();
+
 }); 
